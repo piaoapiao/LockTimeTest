@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461F85BA21DF5E3900C26504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 461F85B921DF5E3900C26504 /* AppDelegate.m */; };
+		461F85BD21DF5E3900C26504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461F85BC21DF5E3900C26504 /* ViewController.m */; };
+		461F85C021DF5E3900C26504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F85BE21DF5E3900C26504 /* Main.storyboard */; };
+		461F85C221DF5E3A00C26504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461F85C121DF5E3A00C26504 /* Assets.xcassets */; };
+		461F85C521DF5E3A00C26504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F85C321DF5E3A00C26504 /* LaunchScreen.storyboard */; };
+		461F85C821DF5E3A00C26504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 461F85C721DF5E3A00C26504 /* main.m */; };
+		461F85D221DF5E3A00C26504 /* LockTimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461F85D121DF5E3A00C26504 /* LockTimeTestTests.m */; };
+		461F85DD21DF5E3A00C26504 /* LockTimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461F85DC21DF5E3A00C26504 /* LockTimeTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461F85CE21DF5E3A00C26504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461F85AD21DF5E3900C26504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461F85B421DF5E3900C26504;
+			remoteInfo = LockTimeTest;
+		};
+		461F85D921DF5E3A00C26504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461F85AD21DF5E3900C26504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461F85B421DF5E3900C26504;
+			remoteInfo = LockTimeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		461F85B521DF5E3900C26504 /* LockTimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockTimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461F85B821DF5E3900C26504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		461F85B921DF5E3900C26504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		461F85BB21DF5E3900C26504 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		461F85BC21DF5E3900C26504 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		461F85BF21DF5E3900C26504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		461F85C121DF5E3A00C26504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461F85C421DF5E3A00C26504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		461F85C621DF5E3A00C26504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461F85C721DF5E3A00C26504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		461F85CD21DF5E3A00C26504 /* LockTimeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockTimeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461F85D121DF5E3A00C26504 /* LockTimeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTimeTestTests.m; sourceTree = "<group>"; };
+		461F85D321DF5E3A00C26504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461F85D821DF5E3A00C26504 /* LockTimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockTimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461F85DC21DF5E3A00C26504 /* LockTimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTimeTestUITests.m; sourceTree = "<group>"; };
+		461F85DE21DF5E3A00C26504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461F85B221DF5E3900C26504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F85CA21DF5E3A00C26504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F85D521DF5E3A00C26504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461F85AC21DF5E3900C26504 = {
+			isa = PBXGroup;
+			children = (
+				461F85B721DF5E3900C26504 /* LockTimeTest */,
+				461F85D021DF5E3A00C26504 /* LockTimeTestTests */,
+				461F85DB21DF5E3A00C26504 /* LockTimeTestUITests */,
+				461F85B621DF5E3900C26504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		461F85B621DF5E3900C26504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461F85B521DF5E3900C26504 /* LockTimeTest.app */,
+				461F85CD21DF5E3A00C26504 /* LockTimeTestTests.xctest */,
+				461F85D821DF5E3A00C26504 /* LockTimeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		461F85B721DF5E3900C26504 /* LockTimeTest */ = {
+			isa = PBXGroup;
+			children = (
+				461F85B821DF5E3900C26504 /* AppDelegate.h */,
+				461F85B921DF5E3900C26504 /* AppDelegate.m */,
+				461F85BB21DF5E3900C26504 /* ViewController.h */,
+				461F85BC21DF5E3900C26504 /* ViewController.m */,
+				461F85BE21DF5E3900C26504 /* Main.storyboard */,
+				461F85C121DF5E3A00C26504 /* Assets.xcassets */,
+				461F85C321DF5E3A00C26504 /* LaunchScreen.storyboard */,
+				461F85C621DF5E3A00C26504 /* Info.plist */,
+				461F85C721DF5E3A00C26504 /* main.m */,
+			);
+			path = LockTimeTest;
+			sourceTree = "<group>";
+		};
+		461F85D021DF5E3A00C26504 /* LockTimeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				461F85D121DF5E3A00C26504 /* LockTimeTestTests.m */,
+				461F85D321DF5E3A00C26504 /* Info.plist */,
+			);
+			path = LockTimeTestTests;
+			sourceTree = "<group>";
+		};
+		461F85DB21DF5E3A00C26504 /* LockTimeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				461F85DC21DF5E3A00C26504 /* LockTimeTestUITests.m */,
+				461F85DE21DF5E3A00C26504 /* Info.plist */,
+			);
+			path = LockTimeTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461F85B421DF5E3900C26504 /* LockTimeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461F85E121DF5E3A00C26504 /* Build configuration list for PBXNativeTarget "LockTimeTest" */;
+			buildPhases = (
+				461F85B121DF5E3900C26504 /* Sources */,
+				461F85B221DF5E3900C26504 /* Frameworks */,
+				461F85B321DF5E3900C26504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockTimeTest;
+			productName = LockTimeTest;
+			productReference = 461F85B521DF5E3900C26504 /* LockTimeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		461F85CC21DF5E3A00C26504 /* LockTimeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461F85E421DF5E3A00C26504 /* Build configuration list for PBXNativeTarget "LockTimeTestTests" */;
+			buildPhases = (
+				461F85C921DF5E3A00C26504 /* Sources */,
+				461F85CA21DF5E3A00C26504 /* Frameworks */,
+				461F85CB21DF5E3A00C26504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461F85CF21DF5E3A00C26504 /* PBXTargetDependency */,
+			);
+			name = LockTimeTestTests;
+			productName = LockTimeTestTests;
+			productReference = 461F85CD21DF5E3A00C26504 /* LockTimeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		461F85D721DF5E3A00C26504 /* LockTimeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461F85E721DF5E3A00C26504 /* Build configuration list for PBXNativeTarget "LockTimeTestUITests" */;
+			buildPhases = (
+				461F85D421DF5E3A00C26504 /* Sources */,
+				461F85D521DF5E3A00C26504 /* Frameworks */,
+				461F85D621DF5E3A00C26504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461F85DA21DF5E3A00C26504 /* PBXTargetDependency */,
+			);
+			name = LockTimeTestUITests;
+			productName = LockTimeTestUITests;
+			productReference = 461F85D821DF5E3A00C26504 /* LockTimeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461F85AD21DF5E3900C26504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = guodong;
+				TargetAttributes = {
+					461F85B421DF5E3900C26504 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					461F85CC21DF5E3A00C26504 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 461F85B421DF5E3900C26504;
+					};
+					461F85D721DF5E3A00C26504 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 461F85B421DF5E3900C26504;
+					};
+				};
+			};
+			buildConfigurationList = 461F85B021DF5E3900C26504 /* Build configuration list for PBXProject "LockTimeTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461F85AC21DF5E3900C26504;
+			productRefGroup = 461F85B621DF5E3900C26504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461F85B421DF5E3900C26504 /* LockTimeTest */,
+				461F85CC21DF5E3A00C26504 /* LockTimeTestTests */,
+				461F85D721DF5E3A00C26504 /* LockTimeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461F85B321DF5E3900C26504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F85C521DF5E3A00C26504 /* LaunchScreen.storyboard in Resources */,
+				461F85C221DF5E3A00C26504 /* Assets.xcassets in Resources */,
+				461F85C021DF5E3900C26504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F85CB21DF5E3A00C26504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F85D621DF5E3A00C26504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461F85B121DF5E3900C26504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F85BD21DF5E3900C26504 /* ViewController.m in Sources */,
+				461F85C821DF5E3A00C26504 /* main.m in Sources */,
+				461F85BA21DF5E3900C26504 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F85C921DF5E3A00C26504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F85D221DF5E3A00C26504 /* LockTimeTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F85D421DF5E3A00C26504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F85DD21DF5E3A00C26504 /* LockTimeTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		461F85CF21DF5E3A00C26504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461F85B421DF5E3900C26504 /* LockTimeTest */;
+			targetProxy = 461F85CE21DF5E3A00C26504 /* PBXContainerItemProxy */;
+		};
+		461F85DA21DF5E3A00C26504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461F85B421DF5E3900C26504 /* LockTimeTest */;
+			targetProxy = 461F85D921DF5E3A00C26504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		461F85BE21DF5E3900C26504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461F85BF21DF5E3900C26504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		461F85C321DF5E3A00C26504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461F85C421DF5E3A00C26504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		461F85DF21DF5E3A00C26504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		461F85E021DF5E3A00C26504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		461F85E221DF5E3A00C26504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LockTimeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoguo.LockTimeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461F85E321DF5E3A00C26504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LockTimeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoguo.LockTimeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		461F85E521DF5E3A00C26504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LockTimeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoguo.LockTimeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockTimeTest.app/LockTimeTest";
+			};
+			name = Debug;
+		};
+		461F85E621DF5E3A00C26504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LockTimeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoguo.LockTimeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockTimeTest.app/LockTimeTest";
+			};
+			name = Release;
+		};
+		461F85E821DF5E3A00C26504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LockTimeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoguo.LockTimeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LockTimeTest;
+			};
+			name = Debug;
+		};
+		461F85E921DF5E3A00C26504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LockTimeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoguo.LockTimeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LockTimeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461F85B021DF5E3900C26504 /* Build configuration list for PBXProject "LockTimeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461F85DF21DF5E3A00C26504 /* Debug */,
+				461F85E021DF5E3A00C26504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461F85E121DF5E3A00C26504 /* Build configuration list for PBXNativeTarget "LockTimeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461F85E221DF5E3A00C26504 /* Debug */,
+				461F85E321DF5E3A00C26504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461F85E421DF5E3A00C26504 /* Build configuration list for PBXNativeTarget "LockTimeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461F85E521DF5E3A00C26504 /* Debug */,
+				461F85E621DF5E3A00C26504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461F85E721DF5E3A00C26504 /* Build configuration list for PBXNativeTarget "LockTimeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461F85E821DF5E3A00C26504 /* Debug */,
+				461F85E921DF5E3A00C26504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 461F85AD21DF5E3900C26504 /* Project object */;
+}
